@@ -9,5 +9,5 @@ ORIGINS = ["http://localhost:8000",
 data = {
     "email": "sulaimonsalako20@gmail.com",
     "current_datetime": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-    "github_url": ""
+    "github_url": "<https://github.com/Sulai-maan/stage_0>"
 }
