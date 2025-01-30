@@ -7,7 +7,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return json.loads(data)
+    return json.dumps(data)
 
 # CORS configuration
 app.add_middleware(
