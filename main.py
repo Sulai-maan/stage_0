@@ -5,7 +5,7 @@ import json
 
 app = FastAPI()
 
-@app.get("/", response_class=ORJSONResponse)
+@app.get("/")
 async def root():
     return data
 
